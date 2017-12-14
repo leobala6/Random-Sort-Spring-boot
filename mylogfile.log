@@ -1,0 +1,103 @@
+2017-12-15 03:19:45.661  INFO 7408 --- [restartedMain] c.h.s.SpringMvchmCartApplication         : Starting SpringMvchmCartApplication on balaji-PC with PID 7408 (F:\New_workspace\SpringMVCHMCart\target\classes started by balaji in F:\New_workspace\SpringMVCHMCart)
+2017-12-15 03:19:45.663  INFO 7408 --- [restartedMain] c.h.s.SpringMvchmCartApplication         : No active profile set, falling back to default profiles: default
+2017-12-15 03:19:45.747  INFO 7408 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1883d38f: startup date [Fri Dec 15 03:19:45 IST 2017]; root of context hierarchy
+2017-12-15 03:19:46.701  INFO 7408 --- [restartedMain] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-12-15 03:19:47.337  INFO 7408 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2017-12-15 03:19:47.349  INFO 7408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-12-15 03:19:47.351  INFO 7408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2017-12-15 03:19:47.590  INFO 7408 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2017-12-15 03:19:47.593  INFO 7408 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-12-15 03:19:47.594  INFO 7408 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1852 ms
+2017-12-15 03:19:47.743  INFO 7408 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-12-15 03:19:47.748  INFO 7408 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-12-15 03:19:47.749  INFO 7408 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-12-15 03:19:47.749  INFO 7408 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-12-15 03:19:47.749  INFO 7408 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-12-15 03:19:48.123  INFO 7408 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1883d38f: startup date [Fri Dec 15 03:19:45 IST 2017]; root of context hierarchy
+2017-12-15 03:19:48.185  INFO 7408 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.hmretail.springboot.controller.HmRetailController.showLoginPage(org.springframework.ui.ModelMap)
+2017-12-15 03:19:48.187  INFO 7408 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.hmretail.springboot.controller.HmRetailController.randomSort(org.springframework.ui.ModelMap,java.lang.String)
+2017-12-15 03:19:48.192  INFO 7408 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-12-15 03:19:48.193  INFO 7408 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-12-15 03:19:48.234  INFO 7408 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 03:19:48.234  INFO 7408 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 03:19:48.299  INFO 7408 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-12-15 03:19:48.470  INFO 7408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2017-12-15 03:19:48.533  INFO 7408 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-12-15 03:19:48.613  INFO 7408 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2017-12-15 03:19:48.619  INFO 7408 --- [restartedMain] c.h.s.SpringMvchmCartApplication         : Started SpringMvchmCartApplication in 3.242 seconds (JVM running for 4.556)
+2017-12-15 03:20:45.457  INFO 7408 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-12-15 03:20:45.458  INFO 7408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-12-15 03:20:45.476  INFO 7408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2017-12-15 03:20:55.206  INFO 7408 --- [http-nio-8080-exec-2] c.h.s.controller.HmRetailController      : Inside Random Sort: 3,8,5,3
+2017-12-15 03:20:55.206  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering doSorting Method
+2017-12-15 03:20:55.207  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : Entering validateNumbers Method : 3,8,5,3
+2017-12-15 03:20:55.208  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : The size of number list is: 4
+2017-12-15 03:20:55.208  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : numVal: 3
+2017-12-15 03:20:55.208  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : numVal: 8
+2017-12-15 03:20:55.208  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : numVal: 5
+2017-12-15 03:20:55.208  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : numVal: 3
+2017-12-15 03:20:55.208  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : List before Sorting:[3, 8, 5, 3]
+2017-12-15 03:20:55.208  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : End validateNumbers Method
+2017-12-15 03:20:55.209  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering sortNumbers Method :[3, 8, 5, 3]
+2017-12-15 03:20:55.209  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.209  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.209  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 8
+2017-12-15 03:20:55.210  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 5
+2017-12-15 03:20:55.210  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.210  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.210  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 5
+2017-12-15 03:20:55.210  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.210  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.211  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.211  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 5
+2017-12-15 03:20:55.211  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 8
+2017-12-15 03:20:55.211  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.211  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.211  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 8
+2017-12-15 03:20:55.211  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.212  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.212  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.212  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 5
+2017-12-15 03:20:55.212  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.212  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.212  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.212  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.213  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 8
+2017-12-15 03:20:55.213  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 5
+2017-12-15 03:20:55.213  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.213  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.213  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.213  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 8
+2017-12-15 03:20:55.213  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 5
+2017-12-15 03:20:55.213  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 8
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 8
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 5
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 8
+2017-12-15 03:20:55.214  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.215  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : Entering isSorted Method
+2017-12-15 03:20:55.215  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : lastVal : 3
+2017-12-15 03:20:55.215  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 3
+2017-12-15 03:20:55.215  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 5
+2017-12-15 03:20:55.215  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : currentVal : 8
+2017-12-15 03:20:55.215  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : End isSorted Method
+2017-12-15 03:20:55.215  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : End sortNumbers Method
+2017-12-15 03:20:55.215  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : outputMap: {sortedList=[3, 3, 5, 8], noOfChanges=11}
+2017-12-15 03:20:55.216  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : Entering constructStringFromList Method
+2017-12-15 03:20:55.216  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : Sorted list:[3, 3, 5, 8]
+2017-12-15 03:20:55.216  INFO 7408 --- [http-nio-8080-exec-2] c.hmretail.springboot.util.HmRetailUtil  : End constructStringFromList Method
+2017-12-15 03:20:55.216  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : sortedOrder:  3,3,5,8,
+2017-12-15 03:20:55.216  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : noOfChanges: 11
+2017-12-15 03:20:55.217  INFO 7408 --- [http-nio-8080-exec-2] c.h.springboot.service.HmRetailService   : End doSorting Method
+2017-12-15 03:20:55.217  INFO 7408 --- [http-nio-8080-exec-2] c.h.s.controller.HmRetailController      : Sorted numbers:  3,3,5,8,
+2017-12-15 03:20:55.217  INFO 7408 --- [http-nio-8080-exec-2] c.h.s.controller.HmRetailController      : Time Taken: 0
+2017-12-15 03:20:55.217  INFO 7408 --- [http-nio-8080-exec-2] c.h.s.controller.HmRetailController      : No of Shuffle: 11
+2017-12-15 03:20:55.217  INFO 7408 --- [http-nio-8080-exec-2] c.h.s.controller.HmRetailController      : End Random Sort: 
+2017-12-15 03:37:37.697  INFO 7408 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2017-12-15 03:37:37.697  INFO 7408 --- [RMI TCP Connection(24)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1883d38f: startup date [Fri Dec 15 03:19:45 IST 2017]; root of context hierarchy
+2017-12-15 03:37:37.700  INFO 7408 --- [RMI TCP Connection(24)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
